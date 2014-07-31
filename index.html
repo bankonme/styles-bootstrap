@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Style GoCoin.com</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/FontAwesome.otf">
+            <!-- Data tables -->
+            <link rel="stylesheet" href="assets/plugins/data-tables/DT_bootstrap.css">
+            <!-- main style sheet -->
+            <link rel="stylesheet" href="assets/css/style.css">
+        </head>
+        <body>
+            <div class="container">
+                <div class="row pt20 pb20">
+                    <div class="col-xs-12">
+                        <h1>Style Guide implementation for <strong>GoCoin.com</strong></h1>
+                    </div>
+                    <hr>
+                    <div class="col-xs-12">
+                        <legend>
+                            <h3>Type</h3>
+                        </legend>
+                        <div class="well">
+                            <h1 class="extra-large">Bold: <strong>ABCDEabcde12345</strong> <small></small></h1>
+                            <h1 class="extra-large">Regular: ABCDEabcde12345</h1>
+                        </div>
+                        <div>
+                            <h1 class="border-bottom">H1 : <strong>Title Goes Here</strong>  - <small>28px bold all caps (-20 ) <strong>#006699</strong></small></h1>
+                            <h2 class="border-bottom">H2 : <strong>Title Goes Here</strong> - <small>20px bold all caps (-20 ) <strong>#006699</strong></small></h2>
+                            <h3 class="border-bottom">H3 : <strong>Title Goes Here</strong> - <small>16px bold all caps (-20 ) <strong>#66666</strong></small></h3>
+                            <h4 class="border-bottom">H4 : <strong>Title Goes Here</strong> - <small>14px bold all caps (-20 ) <strong>#666666</strong></small></h4>
+                            <h5 class="border-bottom">H5 : <strong>Sidebar only</strong> - <small>14px bold all caps (-20 ) <strong>#666666</strong></small></h5>
+                        </div>
+                        <br>
+                        <h4><strong>Note: use class: <code style="text-transform: none;">.border-bottom</code> on H-tags to underline</strong></h4>
+                    </div>
+                </div>
+                <div class="row pt20 pb20">
+                    <div class="col-xs-12 pt20 pb20">
+                        <legend><h3>Icons</h3></legend>
+                        <a href="#fa-money" class="col-xs-6 col-md-3 center icon-container">
+                        <i class="fa fa-money"></i>
+                        <div class="clearfix"></div>
+                        Billing
+                        </a>
+                        <a href="#fa-cogs" class="col-xs-6 col-md-3 center icon-container">
+                        <i class="fa fa-cogs"></i>
+                        <div class="clearfix"></div>
+                        Preferences
+                        </a>
+                        <a href="#fa-btc" class="col-xs-6 col-md-3 center icon-container">
+                        <i class="fa fa-btc"></i>
+                        <div class="clearfix"></div>
+                        Bitcoin
+                        </a>
+                        <div class="clearfix"></div>
+                        <br>
+                        <h4 style="text-transform: none;"><strong>Note: use class: <code>.icon-container</code> on the containing anchor. You will notice there is a <code>div.clearfix</code> between the icon and the text - this is to put them on their own line because they are both rendered as font.</strong></h4>
+                    </div>
+                </div>
+                <div class="row pt20 pb20">
+                    <div class="row pt20 pb20">
+                        <legend><h3>Tabs</h3></legend>
+                        <div class="bs-example bs-example-tabs">
+                            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                                <li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+                                <li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+                                <li class="dropdown">
+                                    <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                                        <li><a href="#dropdown1" tabindex="-1" role="tab" data-toggle="tab">@fat</a></li>
+                                        <li><a href="#dropdown2" tabindex="-1" role="tab" data-toggle="tab">@mdo</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade in active" id="home">
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                </div>
+                                <div class="tab-pane fade" id="dropdown1">
+                                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                                </div>
+                                <div class="tab-pane fade" id="dropdown2">
+                                    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt20 pb20">
+                    <div class="row pt20 pb20">
+                        <legend><h3>Form Elements</h3></legend>
+                        <div class="col-xs-6">
+                            <legend>
+                                <h2><code>btn-primary</code></h2>
+                            </legend>
+                            <div class="col-xs-6">
+                                <h3><code>btn-lg</code></h3>
+                                <a href="" class="btn btn-primary btn-lg">Create Invoice <i class="fa fa-plus"></i></a>
+                            </div>
+                            <div class="col-xs-6">
+                                <h3><code>btn-sm</code></h3>
+                                <a href="" class="btn btn-primary btn-sm">Search <i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <legend>
+                                <h2><code>btn-default</code></h2>
+                            </legend>
+                            <div class="col-xs-6">
+                                <h3><code>btn-lg</code></h3>
+                                <a href="" class="btn btn-default btn-lg">Create Invoice <i class="fa fa-plus"></i></a>
+                            </div>
+                            <div class="col-xs-6">
+                                <h3><code>btn-sm</code></h3>
+                                <a href="" class="btn btn-default btn-sm">Search <i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt20 pb20">
+                    <div class="col-xs-12">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <!-- Form Name -->
+                                <legend>Form Name</legend>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="textinput">Text Input</label>
+                                    <div class="col-md-4">
+                                        <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
+                                    <div class="col-md-4">
+                                        <select id="selectbasic" name="selectbasic" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Textarea -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="textarea">Text Area</label>
+                                    <div class="col-md-4">
+                                        <textarea class="form-control" id="textarea" name="textarea">default text</textarea>
+                                    </div>
+                                </div>
+                                <!-- Prepended text-->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="prependedtext">Prepended Text</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-btc"></i></span>
+                                            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="placeholder" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="row pt20 pb20">
+                    <div class="col-xs-12">
+                        <table class="table table-hover table-striped dataTable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#Mark">Mark</a></td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Tyler</td>
+                                    <td>Wall</td>
+                                    <td>@UC_Wallter</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#Mark">Mark</a></td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Tyler</td>
+                                    <td>Wall</td>
+                                    <td>@UC_Wallter</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#Mark">Mark</a></td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Tyler</td>
+                                    <td>Wall</td>
+                                    <td>@UC_Wallter</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#Mark">Mark</a></td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Tyler</td>
+                                    <td>Wall</td>
+                                    <td>@UC_Wallter</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#Mark">Mark</a></td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Tyler</td>
+                                    <td>Wall</td>
+                                    <td>@UC_Wallter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 style="text-transform: none;"><strong>Note: When using tables add the following classes: <code>.table.table-hover.table-striped.dataTable</code> - by adding <code>.dataTable</code> you enable DataTables pagination, search...etc.</strong></h4>
+                </div>
+            </div>
+            <footer class="pb50">
+                <!-- Latest compiled and minified JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+                <!-- Data tables -->
+                <script src="assets/plugins/data-tables/jquery.dataTables.js"></script>
+                <script src="assets/plugins/data-tables/DT_bootstrap.js"></script>
+                <script src="assets/js/main.js"></script>
+            </footer>
+        </body>
+    </html>
