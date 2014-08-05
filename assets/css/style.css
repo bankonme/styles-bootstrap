@@ -83,13 +83,13 @@ h3.border-bottom, .h3.border-bottom, h4.border-bottom, .h4.border-bottom {
 h5.border-bottom, .h5.border-bottom {
     border-bottom: solid 3px #666;
 }
-.close:before {
+/*.close:before {
     content: "\00d7";
 }
 .close {
     font-weight: 400;
     content: '';
-}
+}*/
 /* =============== GENERAL STYLES ==================== */
 
 .dropshadow {
@@ -218,6 +218,11 @@ h5.border-bottom, .h5.border-bottom {
 .mt-10 {
     margin-top: -10px;
 }
+
+.ml5 {
+  margin-left: 5px;
+}
+
 .mb10 {
     margin-bottom: 10px;
 }
@@ -233,6 +238,7 @@ h5.border-bottom, .h5.border-bottom {
 .mb20 {
     margin-bottom: 20px;
 }
+
 /* ========== ICON CONTAINER ========== */
 
 .icon-container {
@@ -240,7 +246,8 @@ h5.border-bottom, .h5.border-bottom {
     margin: 10px;
     padding: 5px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.4em;
+    font-weight: 300;
     color: #0a5287;
     text-decoration: none;
 }
@@ -251,8 +258,8 @@ a.icon-container {
     background-color: #d5e7f4;
     text-decoration: none;
 }
-.icon-container i {
-    font-size: 4em;
+.icon-container i, .icon-container span {
+    font-size: 2.5em;
     margin: 0px auto;
     padding: 10px;
 }
@@ -264,6 +271,7 @@ a.icon-container {
     font-weight: bold;
 }
 .nav-tabs a {
+    cursor: pointer;
     color: #878787;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
@@ -349,6 +357,7 @@ a.icon-container {
     color: #7a7a7a;
 }
 .btn.btn-primary {
+    color: #fff;
     background-color: #0a5287;
     border-color: #0a5287;
 }
@@ -367,7 +376,7 @@ select:active, textarea:active, input:active, select:focus, textarea:focus, inpu
     border: 1px solid #14598c;
 }
 .form-control {
-    border-radius: 0px;
+    border-radius: 0px !important;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
