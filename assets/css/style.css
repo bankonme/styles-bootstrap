@@ -238,6 +238,15 @@ h5.border-bottom, .h5.border-bottom {
 .mb20 {
     margin-bottom: 20px;
 }
+/* ========== TEXT =========== */
+
+.text-primary {
+  color: #0a5287 !important;
+}
+
+a.text-primary:hover {
+  color: #2b87c6 !important;
+}
 
 /* ========== ICON CONTAINER ========== */
 
@@ -365,6 +374,26 @@ a.icon-container {
     background-color: #2b87c6;
     border-color: #2b87c6;
 }
+
+.btn.btn-s {
+  font-size: 13px !important;
+  padding: 4px 10px !important;
+}
+
+.btn.btn-xs {
+  font-size: 13px !important;
+  padding: 3px 8px !important;
+}
+
+.btn.btn-xxs {
+  font-size: 12px !important;
+  padding: 3px 7px !important;
+}
+
+a.no-underline:hover {
+  text-decoration: none;
+}
+
 /* ========== FORM ELEMENTS ========== */
 
 select, textarea, input {
