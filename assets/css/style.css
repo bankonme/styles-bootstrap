@@ -283,6 +283,12 @@ a.icon-container {
     cursor: pointer;
     color: #878787;
 }
+
+.nav-pills a {
+    cursor: pointer;
+    color: #878787;
+}
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     border: 1px solid #666;
     border-bottom-color: transparent;
@@ -302,6 +308,19 @@ a.icon-container {
     border-color: rgba(135, 135, 135, 0.6);
     color: rgba(135, 135, 135, 0.6);
     border-bottom: 1px solid #666;
+}
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+  border-bottom: 0px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    border-radius: 0px;
+    color: #fff;
+    background-color: #0a5287;
+}
+.nav-pills>li>a, .nav-pills>li>a {
+    border-color: rgba(135, 135, 135, 0.4);
+    border-radius: 0px;
 }
 /* ========== BTN STYLING ========== */
 
